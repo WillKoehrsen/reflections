@@ -25,7 +25,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	There are several options for collobaration without Git and GitHub. Your team could email files back and forth which might work for one or two files, but would get extremely out-of-sync quickly and would not do for a project of any substantial size. Another option would be to use a file sharing site such as Google Docs which might be acceptable for text documents, presentations, or other files (CAD models) that are not being edited by multiple people. Also, for some software, there are built in product data management systems that allow only one team member at a time to check out and work on a part. This means that there will be fewer opportunites for conflicts and it also tracks the history of the changes made to the parts with opportunities to revert to an earlier state. The relative advantages and disadvantages is mostly dependent on the type and size of project. For any development project with multiple team members working on the same set of files, Git and GitHub not is the most useful option, but is the only real choice as is demonstrated among actual development projects. There are other options for other types of team colloborations, but for programming, there are few justifications for using any other system for version control.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
