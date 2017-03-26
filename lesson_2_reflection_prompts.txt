@@ -11,10 +11,12 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 
 	Using the staging area, one can view the differences between the working directory and the staging area (using git diff) and between the staging area and the most recent commit (using git diff --staged). This makes it possible to observe the changes and make sure that only one logical change has been made. Otherwise, the files can be removed from the staging area and only the appropriate files committed to the repository. The staging area is an interesting idea that I am still trying to completely understand, but it seems to be useful in order to prevent unintended changes from being added to the repository every time a commit is completed (using git commit -m 'commit message').
-	
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches could be used when one wants to make a different version of a project, perhaps a more difficult version, or try out an unproven feature. Branches allow for a working copy of the project to remain the master branch while these experiments are made on different branches named for their purpose. A new branch could be created to try out a change while maintaining a working copy of the main branch. All of the branches will have their own commit history and log that can be viewed to track changes in the branch. 
+	
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
