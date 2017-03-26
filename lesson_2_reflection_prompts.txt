@@ -5,6 +5,8 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	The staging area has files that are not yet being tracked but will be added to the repository when the next 'git commit' command is run. Files can be added to the staging area from the current working directory using 'git add <file>'. The repository contains only files that are actively being tracked and is a snapshot of all the files at the time of a commit. The staging area contains the files to be added to the repository on the next commit. The current working directory is the folder in which the file(s) one is working on are contained. It can be initialized into a repository in order for changes to start being tracked with the first commmit. I think that it adds the value that files are not automatically committed to the repository each time a commit is made. The developer has to make the decision to add the files from the current working directory to the staging are to be placed in the repository. Sometimes, it might not be the best idea for all of the files in the current working directory to be added into the repository. 
+	
 How can you use the staging area to make sure you have one commit per logical
 change?
 
