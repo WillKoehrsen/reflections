@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+   
+
+Reading code, especially long files, can be tedious and very difficult to notice differences. File Compare (FC from the Windows command prompt) highlights
+only the lines which have been changed, making it easier to spot any bugs in the program. Since computers are adept at reading large amounts of data but 
+humans are not, it makes sense to have the computer read the data and then have a human process and make sense of it. Eventually we will reach the point where
+the computer can read, understand, process, and act on the data autonomously, but for now, humans still are required in the process and we should use computers
+as a tool when doing so makes things easier and reduces the chance of making mistakes and therefore improves our workflow. 
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It could allow one to learn from past mistakes and see how the code has evolved over time. 
+I know from the second project in the data analyst nanodegree that I have discovered new ways
+to accomplish a task in a more efficient manner, and seeing how the data analysis code I wrote changed could inform my approach in the future. If we don't learn from our mistakes, then we are missing out on the most valuable improvement opporutunity we will ever have. Additionally, knowing that all the versions of a project have been saved might make one more willing to modify the code if one knows he/she can always revert back to a previous point. Having all the versions saved means that one does not have to worry about whether or not the project will be lost, or if it will be modified and then not work and so on. It takes a lot of the file management concerns of working on a project, whether individually, or between groups out of the development process and allows one to focus on actually doing beneficial tasks.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+   Pros: there will likely not be too many versions committed which could become unmanageable if automatic commits are scheduled often; the programmer can make the choice to only commit after making a logical change; an automatic versions control could save versions of a code that do not function.
+
+   Cons: Human error, people are likely to forget to make commits as often as they should; more chances for files to not be committed on time, resulting in confusion; some programmers might commit at different stages and commits will not be equally space in terms of either work completed or time elasped.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    If all the files are interdependent, it makes sense to save all of the files in one commit. Git is more aimed towards programmers, while Google Docs is usually for saving files that are not related to one another. If the files are related in Google Docs, they will not be interdepentdent. In other words, one file will not depend on the content of another to work properly as code projects often do. This is why Git allows saving multiple files in one commit in order to ensure that all files in the repository reflect the changes and will function with the changes made. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    One can use git log to see all the commits made in a given repository. This will show all the commits that have been made in a reposity then, using git diff, one can view the changes that were actually madde between two different versions of a repository (meaning from two separate commits). Git diff can be used to see the actual content changes between files. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	If one knows they will always be able to revert to a stable working version of their code, then she/he will feel more open to experiment with changes. There will not have to be any worries that a potential improvement might temporarily make the code unusable and more "innovative" ideas can be implemented. It is like having a safe fallback plan in case a radical new change does not play out in the manner expected. Gives programmers the confidence to make much larger, changes that have the ability to make a script or a project much better in a single step rather than incrementally (although incremental progress is still vital). 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git in conjunction with GitHub to manage my Udacity Data Analyst Nanodegree files. I also want to have a full working proficiency with Git so I can use it effectively with other team members on projects when I start to begin coding projects with others. I can also use Git for managing school files although my current systems seem to be working fine. I want to especially learn how to efficiently manage files so I do not have to spend as much time messing around with files and I can more time developing projects.
