@@ -20,8 +20,11 @@ organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
 
 	Non-linear structures are inherently difficult to visualize, which means that having the actual diagram is a valuable tool for understanding what is going on with a git repository. Illustrating the branches with their associated commits allows one to see the progress of an entire repository and how different parts have evolved over time. The diagram is definitely helpful to my understanding of commits, detached HEAD state, branches, git log, and how they all function together. 
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	Merging two branches together keeps any lines that were added in a file in one of the branches, does not keep a line if it was present in the original (last shared branch) but not in one of the two files, and keeps lines that were present in the original file and present in both of the files on both branches. Git merge joins the branch specified into the branch one currently has checkout out. It is represented on the diagram showing one brach joined into another and also makes it possible to view the parent commits of each branch leading up to the merge. The commit history of each branch will now be viewable by using git log on the branch that results from the merge (not a new branch but an existing one with the other branch merged into it). All of the parent commits of both branches will be visible, so the branch that was merged can be deleted without rendering the commit log unreachable. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
