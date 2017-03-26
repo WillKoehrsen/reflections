@@ -1,12 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When one does not want to lose all their work because of a hardware failure, it would make sense to have a remote repository. GitHub allows one to keep files online for both safekeeping and to share them with others. Perhaps most importantly, it allows for multiple team members to collaborate on the same project. A team member can create a new branch, make some changes, push them to GitHub, and then other team members can pull them down and view the changes to decide whether to merge them into the master branch. 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Pulling changes manually allows one to have control over what version of the files you have on your local computer. There might be changes made by another team member to one's remote repository that one does not necessarily need to see until one are ready to do so at a convenient time. If Git were to automatically stay up to date, that could get complex with too many files changing places and it would be difficult to track the status of a project. Having control over when to pull changes from the remote allows one to always be aware of the state of the project. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
