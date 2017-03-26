@@ -11,7 +11,11 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A fork is a copy of someone else's repository on GitHub. It adds their repository to your repository with a link back to their repository, but of course it does not let you edit their repository. This is useful when you want to look at someone else's project and make your own changes but they do not necessarily want you to change their project. 
+
+    A clone is a copy of a repository on GitHub that you can edit the original version. It might be a repository that you created yourself, or that a team member created and you need to work on together. When you push changes to this repository, the changes will be visible to all the team members. Anyone listed as a colloborator will be able to clone and then modify the repository. This would be used when you want have a backup of a project online, if you are working on a project with multiple computers, or if you are colloborating on a project with others and all members need to have edit access to the repository. 
+
+    A branch is an version of a repository that can be used for trying out new features or creating new versions of a project that might not necessarily work out. It is a part of a repository with its own commit history. The master branch is the main version of the project and is generally kept in working order. Changes made on a branch can then be incorporated into the master branch using merge. Branches can then be pushed onto GitHub in order to keep the remote repository up to date with the local repository. This is useful when trying to develop a new feature, making a different version of a project, or when team members are working on a project and it would not make sense for everyone to be making changes to the master branch because that would be difficult to track and keeping in a working state. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
