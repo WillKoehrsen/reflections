@@ -20,7 +20,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit is that it allows one to have a copy of the current version of the remote without necessarily incorporating the changes into their local repository. This could be useful if one is going offline but would still like to view the status of the project. It also means that one does not have to merge their local repository with the remote repository in order to view the remote repository. Using git fetch, one can update the local version of origin/master without merging the changes into the local master branch. One can then compare the origin/master with the local master or working branch before deciding whether to merge the two. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
